@@ -1,4 +1,0 @@
-# Week 3 Opdracht #
-
-## K-Nearest-Neighbor ##
-Ik heb gekozen om met pixel data uit de webcam te gaan werken. In app.js heb ik een nieuwe functie gemaakt waarin ik het algoritme train met de data die ik heb gekregen door de webcam foto's van Van Gogh kunst te laten zien en de gegeven array aan het algoritme te geven met een label van de naam van het kunstwerk. In html heb ik een button toegevoegd die de functie uitvoerd en zo de array van getallen die hij op het moment van de button click ziet te vergelijken met de trainingdata en daarbij terug te geven in de console op welk Van Gogh's kunstwerk het beeld op dat moment het meest lijkt. Om de opdracht wat kleiner voor mezelf te houden heb ik het algoritme met 5 bekende schilderijen getraind met elk 5 trainingsdata. Dit leek me een simpele maar grappige opdracht omdat ik het zelf kunst leuk vind en ik zo mijn programmeerwerk met mijn interesses wou mixen.  
