@@ -1,0 +1,31 @@
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.neutralBert{
+    position: absolute;
+    z-index: 2;
+}
+
+.neutralBert:hover{
+    opacity: 0;
+}
+
+.happyBert{
+    z-index: 1;
+}

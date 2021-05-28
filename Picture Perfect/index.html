@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Van Gogh Webcam Capture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <video autoplay muted></video>
+    <canvas id="mosaic"></canvas>
+    <div>
+        <h4>Click on check to find out which Van Gogh painting the current webcam image looks most like!</h4>
+        <data></data>
+        <h1 id="painting"></h1>
+        <button onclick="predict()">check</button>
+    </div>
+    <script src='js/knear.js'></script>
+    <script src='js/color.js'></script>
+    <script src='js/app.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+html {
+    font-family: 'Lexend Exa', sans-serif;
+    display: table;
+    margin: auto;
+    background-color: #FFC30B;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    margin: 2%;
+}

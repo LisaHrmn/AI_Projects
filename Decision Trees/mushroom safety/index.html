@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+    <title>Decision Tree Inleveropdracht</title>
+</head>
+
+<body>
+    <div>
+        <h3>Mushroom Safety</h3>
+        <p>This decision tree predicts the safety of mushrooms, can you eat them?? It's possible! But even if you follow the decision tree and it says it's safe please don't eat random mushrooms the prediction is only about 68% accurate. 
+            <br>For this decision tree the following data was used: https://www.kaggle.com/uciml/mushroom-classification</p>
+    </div>
+    <div id="view"></div>
+    <div>
+        <p>Accuracy :</p>
+        <div id="accuracy">Accuracy : - </div>
+    </div>
+    <div>
+        <h3>Attribute information:</h3>
+        <p>
+            edible = e,
+            poisonous = p
+            <br>
+            cap-shape:  
+            bell = b,
+            conical = c,
+            convex = x,
+            flat = f ,
+            knobbed = k,
+            sunken = s
+            <br>
+            cap-surface: 
+            fibrous = f,
+            grooves = g,
+            scaly = y,
+            smooth = s
+            <br>
+            cap-color: 
+            brown = n,
+            buff = b,
+            cinnamon = c,
+            gray = g,
+            green = r,
+            pink = p,
+            purple = u,
+            red = e,
+            white = w,
+            yellow = y
+            <br>
+            bruises: 
+            bruises = t,
+            no = f
+            <br>
+            odor: 
+            almond = a,
+            anise = l,
+            creosote = c,
+            fishy = y,
+            foul = f,
+            musty = m,
+            none = n,
+            pungent = p,
+            spicy = s
+            <br>
+            gill-attachment: 
+            attached = a,
+            descending = d,
+            free = f,
+            notched = n
+            <br>
+            gill-spacing: 
+            close = c,
+            crowded = w,
+            distant = d
+            <br>
+            gill-size: 
+            broad = b,
+            narrow = n
+            <br>
+            gill-color: 
+            black = k,
+            brown = n,
+            buff = b,
+            chocolate = h,
+            gray = g,
+            green = r,
+            orange = o,
+            pink = p,
+            purple = u,
+            red = e,
+            white = w,
+            yellow = y
+            <br>
+            stalk-shape: 
+            enlarging = e,
+            tapering = t
+            <br>
+            stalk-root: 
+            bulbous = b,
+            club = c,
+            cup = u,
+            equal = e,
+            rhizomorphs = z,
+            rooted = r,
+            missing = ?
+            <br>
+            stalk-surface-above-ring: 
+            fibrous = f,
+            scaly = y,
+            silky = k,
+            smooth = s
+            <br>
+            stalk-surface-below-ring: 
+            fibrous = f,
+            scaly = y,
+            silky = k,
+            smooth = s
+            <br>
+            stalk-color-above-ring: 
+            brown = n,
+            buff = b,
+            cinnamon = c,
+            gray = g,
+            orange = o,
+            pink = p,
+            red = e,
+            white = w,
+            yellow = y
+            <br>
+            stalk-color-below-ring: 
+            brown = n,
+            buff = b,
+            cinnamon = c,
+            gray = g,
+            orange = o,
+            pink = p,
+            red = e,
+            white = w,
+            yellow = y
+            <br>
+            veil-type: 
+            partial = p,
+            universal = u
+            <br>
+            veil-color: 
+            brown = n,
+            orange = o,
+            white = w,
+            yellow = y
+            <br>
+            ring-number: 
+            none = n,
+            one = o,
+            two = t
+            <br>
+            ring-type: 
+            cobwebby = c,
+            evanescent = e,
+            flaring = f,
+            large = l,
+            none = n,
+            pendant = p,
+            sheathing = s,
+            zone = z
+            <br>
+            spore-print-color: 
+            black = k,
+            brown = n,
+            buff = b,
+            chocolate = h,
+            green = r,
+            orange = o,
+            purple = u,
+            white = w,
+            yellow = y
+            <br>
+            population: 
+            abundant = a,
+            clustered = c,
+            numerous = n,
+            scattered = s,
+            several = v,
+            solitary = y
+            <br>
+            habitat: 
+            grasses = g,
+            leaves = l,
+            meadows = m,
+            paths = p,
+            urban = u,
+            waste = w,
+            woods = d
+        </p>
+    </div>
+</body>
+</html>

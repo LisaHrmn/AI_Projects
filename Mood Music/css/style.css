@@ -1,0 +1,40 @@
+html{
+    display: table;
+    margin: auto;
+}
+
+body { 
+    background-color: #D5F3FE;
+    font-family: sans-serif;
+    margin:0; padding:0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#inputBox{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+}
+
+#submitBtn{
+    margin: 20px;
+}
+
+img{
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
+
+#goagain{
+    display: none;
+}
