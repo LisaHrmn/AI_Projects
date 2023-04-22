@@ -1,2 +1,2 @@
 Collection of small machine learning projects.
-https://lisakeers.github.io/AI_Projects/
+https://lisahrmn.github.io/AI_Projects/
